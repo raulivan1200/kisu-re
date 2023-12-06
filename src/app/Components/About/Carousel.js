@@ -7,7 +7,7 @@ import styles from "../../styles/about.module.css"
 import kiki from "../../../../public/Portfolio/kiikii.jpg"
 import woofles from "../../../../public/Portfolio/woffles.jpg" 
 import bill from "../../../../public/Portfolio/billsp.jpg"
-import imagikids from "../../../../public/Portfolio/imagikids.jpg"
+import imagikids from "../../../../public/Portfolio/Imagikids.jpg"
 import salesys from "../../../../public/Portfolio/System.jpg"
 function Carousel() {
 
