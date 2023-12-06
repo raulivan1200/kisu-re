@@ -1,3 +1,4 @@
+{/*
 "use client";
 import Image from "next/image";
 import Imkids from "../../../../public/Portfolio/imagigids.jpg";
@@ -102,3 +103,4 @@ function Scroll() {
 }
 
 export default Scroll
+*/}
