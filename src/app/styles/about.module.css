@@ -1,0 +1,21 @@
+.abt{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.caim{
+    width: 25vw;
+    height: 10vw;
+    object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+    .abt{
+        width: 85%;
+    }   
+}
+.caim{
+    width: 100%;
+}

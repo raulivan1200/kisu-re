@@ -1,0 +1,88 @@
+.container { display: flex;
+  flex-direction: row;
+  gap: 28px;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.rt {   order: 2;
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tittlert"
+    "btrt";
+  grid-area: rt;
+  height: fit-content;}
+
+.tittlert { grid-area: tittlert;    height: fit-content; }
+
+.btrt {
+  height: 0vh;
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 24px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "lefttextrt righttextrt";
+  grid-area: btrt;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.lefttextrt { grid-area: lefttextrt; }
+
+.righttextrt { grid-area: righttextrt; }
+
+.lim {
+  order: 1;
+  grid-area: lim; 
+  width: 70%; 
+  height: 100% !important;
+  object-fit: scale-down;
+}
+
+
+  .tittles{
+    margin: 0;
+  }
+  .headcont{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+  }
+  @media screen and (max-width:769px) {
+    .container{
+          gap: 69px;
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      width: 85%;
+      margin: 0 auto;
+    }
+    .rt{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .btrt{
+      width: 100%;
+      height: auto  !important;
+      display: flex;
+      flex-direction: column;
+      order: 3;
+    }
+    .lim{
+      width: 100%;
+      order: 2;
+    }
+    .tittlert{
+      order: 1;
+    }
+
+  }

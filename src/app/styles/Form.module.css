@@ -1,0 +1,80 @@
+.cush{
+    padding-top: .5em;
+}
+.formh{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}
+.formcon{
+    width: 100vw;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.inputbody{
+    resize: none;
+    background-color: var(--white);
+    height: 30vh;
+    width: 80vw;
+    font-family: Eudoxus;
+    margin-bottom: 0%;
+    border: none; /* Add a 1px bottom border */
+    outline: none; /* Remove the default outline on focus */
+}
+
+.butonform{
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.ef{
+    width: 100%;
+    margin: 0;
+}
+.email{
+    font-family:Eudoxus;
+    width: 40vw;
+
+}
+.c{
+    background-color: var(--white);
+}
+.c,.c:active,.c:focus{
+    padding-top: 1%;
+    border: none;
+    outline: none; /* Remove the default outline on focus */
+
+}
+@media screen and (max-width:769px) {
+    .cush{
+        padding-top: 3.3em;
+    }
+.c{
+    width: 79.2vw;
+}
+.formcon{
+    padding-bottom: 5%;
+}
+.butonform{
+    width: 80vw;
+}
+}
+.useClient {
+    font-size: small;
+    color: red;
+  }
+
+
+

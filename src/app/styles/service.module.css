@@ -1,0 +1,87 @@
+.servp{
+    width: 85%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 69px;
+
+}
+.cat{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+.wser{
+    height: fit-content;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10vh 69px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "im1 t1"
+      "t2 im2"
+      "im3 t3"
+      "t4 im4";
+  }
+  
+  .im1 { grid-area: im1; }
+  
+  .im2 { grid-area: im2; }
+  
+  .im3 { grid-area: im3; }
+  
+  .im4 { grid-area: im4; }
+  
+  .t1 { grid-area: t1; }
+  
+  .t2 { grid-area: t2; }
+  
+  .t3 { grid-area: t3; }
+  
+  .t4 { grid-area: t4; }
+  
+  @media screen and (max-width: 768px) {
+    .pl{
+        padding-left: 10% !important;
+      }
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .t1{order: 1;}
+    .t2{order: 3;}
+    .t3{order: 5;}
+    .t4{order: 7;}
+    .im1{order: 2;}
+    .im2{order: 4;}
+    .im3{order: 6;}
+    .im4{order: 8;}
+    .im1,.im2,.im3,.im4{
+        width: 100%;
+        height: 100%;
+    }
+    .cat{
+        width: 100%;
+    }
+    .servp{
+        display: flex;
+        flex-direction: column;
+        
+    }
+  }
+  .pl{
+    padding-left: 5%;
+  }
