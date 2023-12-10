@@ -1,7 +1,7 @@
 
 .hzdwp{
   display: flex;
-  width: 30%;
+  width: fit-content;
   flex-direction: row;
   gap:20px;
 }
