@@ -78,7 +78,7 @@ textarea {
   transition: background-color 0.5s ease-in-out;
 }
 :root {
-  --pink: #f9cdcdff;
+  --pink: #EDCDC2;
   --blue: #57aef5;
   --green: #41d1bc;
   --tb: #252422ff;
@@ -86,7 +86,7 @@ textarea {
   --black:#1F1E1C;
 }
 html[data-theme='light'] {
-  --pink: #f9cdcdff;
+  --pink: #EDCDC2;
   --blue: #57aef5;
   --green: #41d1bc;
   --tb: #252422ff;
@@ -94,11 +94,11 @@ html[data-theme='light'] {
   --black:#1F1E1C;
 }
 html[data-theme='dark'] {
-  --pink: #f9cdcdff;
+  --pink: #EDCDC2;
   --blue: #57aef5;
   --green: #41d1bc;
-  --tb: #f4f4f4ff;
-  --white:#1F1E1C ;
+  --tb: #ffff;
+  --white:#BE3455 ;
   --black:#ff8370 ;
 --background:#1F1E1C;
 .iconf{

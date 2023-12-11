@@ -46,7 +46,7 @@ export default function home() {
   };
 
   const imageData = [
-   'empty.svg', 'drawx.svg',"device.svg", 'world.svg', '/icons/code.svg','photo.svg','/cats/catpad.png'
+   'empty.svg', '/cats/catpad.jpg',"/cats/catgold.jpg", '/cats/catjump.jpg', '/cats/catmouse.jpg','/cats/cateating.jpg','/cats/catpad.jpg'
     // Add more image URLs as needed
   ];
   
@@ -111,9 +111,9 @@ export default function home() {
 className={styles.bgimh}
  style={{
   mixBlendMode: "revert",
-  filter:"invert(1)",
+  filter: "opacity(0.9)",
   transition: "transform .2s ease-in-out", // Cambiado 'all' a 'transform'
-  transform: `scale(${0.5 + activeImageIndex * 0.1})`, // Corregido el formato de transformación
+  transform: `scale(${0.4 + activeImageIndex * 0.05})`, // Corregido el formato de transformación
   zIndex: -999,
   position: "absolute",
   left: `${20 + activeImageIndex * 5}%`

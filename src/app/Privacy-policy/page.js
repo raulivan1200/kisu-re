@@ -7,7 +7,7 @@ function page() {
             <Head>
               <title>Privacy Kisu</title>
               <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-              <meta name="description"           key="desc" content="Privacy policy Kisu kisu web design development" />
+              <meta name="description" key="desc" content="Privacy policy Kisu kisu web design development" />
             </Head>
       <div className='space'>      </div>
       <h1>Privacy Policy</h1>

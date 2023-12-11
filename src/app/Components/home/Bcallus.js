@@ -2,6 +2,9 @@ import React from 'react'
 import styles from "../../styles/Head.module.css"
 import Viewanimate from "../Viewanimate";
 import Image from "next/image";
+function sendEmail() {
+  window.location.href = "mailto:kisucontacto@gmail.com";
+}
 function Bcallus() {
   return (
     <div className={styles.parentbtr}>
@@ -24,7 +27,7 @@ function Bcallus() {
                     <h4>Book a Call</h4>
                     <p>Lear more about us.</p>
 
-                    <button role="submit" style={{backgroundColor:"black"}} class="button" href="#">
+                    <button role="submit" style={{backgroundColor:"black"}} class="button" onClick={sendEmail}>
             <span className="button__icon-wrapper">
            
             <img src="/arrow.svg"  className="button__icon-svg" style={{filter:"invert(1)"}} alt=""/>
