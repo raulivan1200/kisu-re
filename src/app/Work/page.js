@@ -11,7 +11,6 @@ import useMousePosition from "../Components/useMousePosition";
 import imki from "../../../public/Portfolio/Imagikids.jpg"
 import billsp from "../../../public/Portfolio/billspl.jpg"
 import sys from "../../../public/Portfolio/System.jpg"
-
 const Work = () => {
   const [cursorVariant, setCursorVariant] = useState("default");
 
@@ -66,6 +65,10 @@ const Work = () => {
   };
   return (
     <div>
+           <Head>
+        <title>Work Kisu</title>
+        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+      </Head>
  <motion.div
            variants={variants}
            animate={cursorVariant}
@@ -78,11 +81,7 @@ const Work = () => {
       </motion.div>
 
 
-         <Head>
-        <title>Meta Tag Example</title>
-        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-        <meta name="google" content="notranslate" key="notranslate" />
-      </Head>
+
 
       <div className="space"></div>
       <div className={styles.container}>

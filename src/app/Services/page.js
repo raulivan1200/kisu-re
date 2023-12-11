@@ -44,9 +44,8 @@ const service = memo(() => {
       <div>
 
          <Head>
-        <title>Meta Tag Example</title>
+        <title>Services kisu</title>
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-        <meta name="google" content="notranslate" key="notranslate" />
       </Head>
         <div className="space"></div>
         

@@ -1,9 +1,13 @@
 
 import React from 'react'
-
+import Head from 'next/head'
 function page() {
   return (
     <div style={{width:"90%", margin:"0 auto"}}>
+             <Head>
+        <title>Privacy Kisu</title>
+        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+      </Head>
       <div className='space'>      </div>
       <h1>Privacy Policy</h1>
 <p>Last updated: December 04, 2023</p>

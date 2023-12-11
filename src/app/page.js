@@ -16,6 +16,8 @@ import Image from "next/image";
 import Bcallus from "./Components/home/Bcallus"
 import Ourbrand from "./Components/home/Ourbrand";
 import { useInView } from "framer-motion"
+import Head from 'next/head';
+
 export default function home() {
   const refst = useRef(null)
   
@@ -69,8 +71,12 @@ export default function home() {
         enter: i => ({y: "0", transition: {duration: 0.75, ease: [0.33, 1, 0.68, 1],  delay: 0.075 * i,type:"tween"}}),
       }
   return ( 
+    
   <div>
-
+      <Head>
+        <title>Kisu</title>
+        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+      </Head>
     <div className="space"></div>
     <div className="space"></div>
 

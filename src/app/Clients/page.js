@@ -7,8 +7,13 @@ import imagikids from "../../../public/Portfolio/Imagikids.jpg"
 import vidarta from "../../../public/Portfolio/vidarta.png"
 import salon from "../../../public/Portfolio/hair salon.png"
 import salesys from "../../../public/Portfolio/System.jpg"
+import Head from "next/head";
 const clients = () => {
     return ( <div>
+             <Head>
+        <title>Clients Kisu</title>
+        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+      </Head>
               <div style={{height:"5vh"}} ></div>
 
         <div className="space hom" ></div>

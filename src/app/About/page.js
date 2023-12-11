@@ -10,7 +10,8 @@ const About = () => {
     return ( 
     <div>
        <Head>
-        <title>You better contact us!</title>
+        <title>About Kisu</title>
+        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
       </Head>
         <div className="space"></div>
         <div className="space"></div>
