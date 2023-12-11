@@ -108,7 +108,7 @@ const pathname = usePathname()
   </a> 
           </Viewanimate>
           <Viewanimate  >
-<a href="" className={styles.hua}>
+<a href="sitemap.xml" className={styles.hua}>
   <h6>Sitemap </h6> 
   </a> 
           </Viewanimate>
