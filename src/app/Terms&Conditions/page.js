@@ -6,7 +6,8 @@ function page() {
              <Head>
         <title>T&C Kisu</title>
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-        <meta
+        <meta          key="desc"
+
           name="description"
           content="Read and understand the Terms and Conditions of Kisu - Your reliable partner for web development. Learn about our policies, guidelines, and the terms governing our services to ensure a transparent and trustworthy collaboration."
         />

@@ -15,6 +15,7 @@ const clients = () => {
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
         <meta
           name="description"
+          key="desc"
           content="Explore the diverse portfolio of Kisu - Your trusted partner for web development. Discover our successful collaborations and innovative solutions that showcase our expertise and commitment to delivering exceptional results for our clients."
         />
       </Head>

@@ -8,6 +8,8 @@ const Contact = () => {
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
         <meta
           name="description"
+          key="desc"
+
           content="Contact kisu - Your reliable partner for innovative web development solutions. Get in touch with us to bring your ideas to life!"
         />
       </Head>
