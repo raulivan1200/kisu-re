@@ -311,8 +311,24 @@ small,
   }
   .pahz {
     margin: 0 10vw;
-  }
+  }}
 
+  @media screen and (max-height: 500px) and (orientation: landscape){
+    h1, h2, h3, h4, h5 {
+      margin: .7rem 0 1.38rem !important; }
+    h6{
+      font-size: .9rem !important;
+    }
+    h4{
+     font-size: 1.5rem !important;
+    }
+    h2{
+      font-size: 1.5rem !important;
+    }
+    .pahz {
+      margin: 0 10vw !important;
+    }
+  }  
   .sticky_parent {
     height: 450vh;
   }
@@ -327,7 +343,7 @@ small,
     width: 70vw;
     object-fit: cover !important;
   }
-}
+
 .space{
   height: 10vh;
 }

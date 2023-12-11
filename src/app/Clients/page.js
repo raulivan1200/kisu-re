@@ -193,7 +193,7 @@ The feedback from users in the tests was positive, with 93% of comments being po
        <div className={styles.container}>
   <div className={styles.rt}>
     <div className={styles.tittlert}>
-      <h2>hair salon</h2>
+      <h2>Hair salon</h2>
     </div>
     <div className={styles.btrt}>
       <div className={styles.lefttextrt}>

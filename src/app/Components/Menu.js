@@ -59,9 +59,8 @@ useMotionValueEvent(scrollY, "change", (latest) =>{
 <Image priority src={open} className='svco hod' alt='open' width={48} height={48} style={{ cursor: "pointer" }} onClick={handleClick}></Image>
 <div className="hom">
 <ul className={styles.ulm}>
-  <li className={styles.lim}>
-    <Link className={`link ${pathname === '/Work' ? 'active' : ''}`} href="/Work">    <AnimatedLink title={"Work"} /></Link>
-    </li>
+  <li className={styles.lim}>    <Link className={`link ${pathname === '/Work' ? 'active' : ''}`} href="/Work">    <AnimatedLink title={"Work"} /></Link>    
+  </li>
   <li className={styles.lim}><Link  className={`link ${pathname === '/Clients' ? 'active' : ''}`} href="/Clients">    <AnimatedLink title={"Clients"} />
 </Link></li>
   <li className={styles.lim}><Link className={`link ${pathname === '/Services' ? 'active' : ''}`}  href="/Services">    <AnimatedLink title={"Services"} />

@@ -12,10 +12,10 @@ import { useState,useEffect,memo } from "react";
 
 import Carousel from "../Components/About/Carousel";
 import website from  "../../../public/stock/design6.jpg" 
-import catpc from  "../../../public/stock/catpc.jpg" 
-import design from  "../../../public/stock/design3.jpg" 
-import marketing from  "../../../public/stock/design4.jpg" 
-import software from  "../../../public/stock/code.jpg" 
+import catpc from  "../../../public/stock/catpc1.jpg" 
+import design from  "../../../public/stock/design31.jpg" 
+import marketing from  "../../../public/stock/design41.jpg" 
+import software from  "../../../public/stock/code1.jpg" 
 
 const service = memo(() => {
   const [isMobile, setIsMobile] = useState(false);
