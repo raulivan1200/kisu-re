@@ -12,6 +12,10 @@ const About = () => {
        <Head>
         <title>About Kisu</title>
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+        <meta
+          name="description"
+          content="Learn more about Kisu - Your dedicated partner for cutting-edge web development. Discover our team, mission, and commitment to delivering high-quality solutions for your digital needs."
+        />
       </Head>
         <div className="space"></div>
         <div className="space"></div>

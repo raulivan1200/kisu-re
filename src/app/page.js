@@ -76,6 +76,7 @@ export default function home() {
       <Head>
         <title>Kisu</title>
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+        <meta name="description" content="Kisu is a global branding and UX design agency Craft breathtaking websites that convert with Kisu, your premier UX/web development agency in Mexico. We leverage cutting-edge React and Next.js technologies to deliver unparalleled user experiences and drive powerful results." />
       </Head>
     <div className="space"></div>
     <div className="space"></div>

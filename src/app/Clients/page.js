@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "../styles/clients.module.css"
-import kiki from "../../../public/Portfolio/kiikii.jpg"
+import kiki from "../../../public/Portfolio/kiikii1.jpg"
 import woofles from "../../../public/Portfolio/woffles.jpg" 
 import bill from "../../../public/Portfolio/billspl.jpg"
 import imagikids from "../../../public/Portfolio/Imagikids.jpg"
-import vidarta from "../../../public/Portfolio/vidarta.png"
-import salon from "../../../public/Portfolio/hair salon.png"
+import vidarta from "../../../public/Portfolio/vidarta1.jpg"
+import salon from "../../../public/Portfolio/hair salon1.jpg"
 import salesys from "../../../public/Portfolio/System.jpg"
 import Head from "next/head";
 const clients = () => {
@@ -13,6 +13,10 @@ const clients = () => {
              <Head>
         <title>Clients Kisu</title>
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+        <meta
+          name="description"
+          content="Explore the diverse portfolio of Kisu - Your trusted partner for web development. Discover our successful collaborations and innovative solutions that showcase our expertise and commitment to delivering exceptional results for our clients."
+        />
       </Head>
               <div style={{height:"5vh"}} ></div>
 

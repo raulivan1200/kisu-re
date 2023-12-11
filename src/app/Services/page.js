@@ -43,10 +43,11 @@ const service = memo(() => {
     return (
       <div>
 
-         <Head>
-        <title>Services kisu</title>
-        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-      </Head>
+        <Head>
+          <title>Services kisu</title>
+          <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+          <meta name="description" content="We are a full-service digital innovation partner specializing in website development, UX/UI design, and digital marketing. Contact us for exceptional digital experiences. design agency, ux agency." />
+        </Head>
         <div className="space"></div>
         
         <div className={styles.servp}>

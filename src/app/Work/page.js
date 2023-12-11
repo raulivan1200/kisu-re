@@ -65,10 +65,14 @@ const Work = () => {
   };
   return (
     <div>
-           <Head>
-        <title>Work Kisu</title>
-        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-      </Head>
+          <Head>
+            <title>Work Kisu</title>
+            <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+            <meta
+          name="description"
+          content="Explore the impressive work portfolio of Kisu - Your go-to choice for top-notch web development services. Browse through our featured projects, and witness the innovation and quality that sets us apart in the industry."
+        />
+                  </Head>
  <motion.div
            variants={variants}
            animate={cursorVariant}
