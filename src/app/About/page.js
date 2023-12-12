@@ -16,7 +16,9 @@ const About = () => {
           name="description"
           key="desc"
 
-          content="Learn more about Kisu - Your dedicated partner for cutting-edge web development. Discover our team, mission, and commitment to delivering high-quality solutions for your digital needs."
+          content="Learn more about Kisu - Your dedicated partner for cutting-edge web development. 
+          Discover our team, mission, and commitment to delivering high-quality solutions for your digital needs.
+          "
         />
       </Head>
         <div className="space"></div>
@@ -25,7 +27,11 @@ const About = () => {
       <h1> ABOUT KISU </h1> 
        <h6>
 A community-based creative agency.
-       kisu isn't your average agency. We're a band of rebels, innovators, and luxury brutes who use React to craft websites that rip open the seams of the ordinary and leave you breathless. We don't just create solutions; we crave the unique, the unexpected, the brutally beautiful. Fueled by a restless desire to change the world, we're a community of passionate storytellers, code wizards, and visual alchemists united by a hunger to create something truly extraordinary. We're a global phenomenon with roots in Mexico, a tribe of over a thousand creative partners and 30 full-time warriors from 11 nationalities and 8 languages. We speak the language of innovation, fluently. So if you're tired of the beige and the bland, if you crave an experience that leaves a mark on your soul, then kisu is your answer. We'll help you roar, we'll help you change the game, and we'll do it all with a touch of Mexican brutality and a whole lot of heart.
+       kisu isn't your average agency. 
+       <br/><br/> We're a band of rebels, innovators, and luxury brutes who use React to craft websites that rip open the seams of the ordinary and leave you breathless. We don't just create solutions; we crave the unique, the unexpected, the brutally beautiful. Fueled by a restless desire to change the world, we're a community of passionate storytellers, code wizards, and visual alchemists united by a hunger to create something truly extraordinary.<br/><br/>
+        We're a global phenomenon with roots in Mexico, a tribe of over a thousand creative partners and 30 full-time warriors from 11 nationalities and 8 languages. We speak the language of innovation, fluently. <br/><br/>
+         So if you're tired of the beige and the bland, if you crave an experience that leaves a mark on your soul, then kisu is your answer.
+        <br/>  <br/> We'll help you roar, we'll help you change the game, and we'll do it all with a touch of Mexican brutality and a whole lot of heart.
 
 
 
