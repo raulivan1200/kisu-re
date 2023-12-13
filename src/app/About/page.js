@@ -1,5 +1,6 @@
 "use client"
 import Carousel from "../Components/About/Carousel";
+import VelocityScroll from "../Components/Velocityscroll";
 import styles from "../styles/about.module.css"
 import Head from "next/head";
 
@@ -32,13 +33,18 @@ A community-based creative agency.
         We're a global phenomenon with roots in Mexico, a tribe of over a thousand creative partners and 30 full-time warriors from 11 nationalities and 8 languages. We speak the language of innovation, fluently. <br/><br/>
          So if you're tired of the beige and the bland, if you crave an experience that leaves a mark on your soul, then kisu is your answer.
         <br/>  <br/> We'll help you roar, we'll help you change the game, and we'll do it all with a touch of Mexican brutality and a whole lot of heart.
-
-
-
-
-
        </h6>
+      </div>
 
+      <div className="space"></div>
+      <div className="space"></div>
+
+      <div className={styles.footp}>
+      <div style={{overscrollBehavior:"contain",overflow:"hidden"}}>
+      <VelocityScroll baseVelocity={-1}> 今すぐ電話！今すぐ電話！</VelocityScroll>
+      <VelocityScroll baseVelocity={1}> us Contact</VelocityScroll>
+      <VelocityScroll baseVelocity={-.3}> 今すぐ電話！今すぐ電話！</VelocityScroll>
+      </div>
       </div>
 
       <div className="space"></div>
