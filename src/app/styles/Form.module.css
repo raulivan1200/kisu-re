@@ -30,6 +30,7 @@
     margin-bottom: 0%;
     border: none; /* Add a 1px bottom border */
     outline: none; /* Remove the default outline on focus */
+    color: var(--tb);
 }
 
 .butonform{
@@ -51,6 +52,7 @@
 
 .c{
     background-color: var(--white);
+    width: 100%;
 }
 .c,.c:active,.c:focus{
     padding-top: 1%;
@@ -58,7 +60,17 @@
     outline: none; /* Remove the default outline on focus */
 
 }
+.whr{
+    margin-top: 1px;
+    width: 20%;
+}
 @media screen and (max-width:769px) {
+    .ta{
+        text-align: left;
+    }
+    .whr{
+        width: 100%;
+    }
     .cush{
         padding-top: 3.3em;
     }

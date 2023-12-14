@@ -34,7 +34,7 @@ export default function Form() {
     <form onSubmit={handleSubmit(onSubmit)} className={styles.formcon}>
       <div className={styles.formh}>
         <h1 className={styles.cush}>CONTACT US</h1>
-        <p>
+        <p className='ta'>
           Use the form below to contact us. We look forward to learning more about you, your organization, and how we can help you achieve even greater success.
         </p>
       </div>
@@ -53,14 +53,14 @@ export default function Form() {
                 "Email address must be a valid address",
             }
           })}
-          placeholder="me@gmail.com"
+          placeholder="Email address"
         ></input>
 
         {errors.email && (
           <p className={styles.error} style={{ color: 'red' }}>{errors.email.message}</p>
         )}
         {errorMessage && <p className={styles.error} style={{ color: 'red' }}>{errorMessage}</p>}
-      <hr style={{color:"#757575",width:"20em",height:"1px",backgroundColor:"#757575"}}/>
+      <hr className={styles.whr} style={{color:"#757575",height:"1px",backgroundColor:"#757575"}}/>
       </div>
 
       <div>
