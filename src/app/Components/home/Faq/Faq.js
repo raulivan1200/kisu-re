@@ -36,7 +36,7 @@ function Faq() {
         <div>
 
             {faqData.map((item, index) => (
-                      <Viewanimate iny={"100%"} any={0} dtime={0.3} delay={item*.2}>
+                      <Viewanimate iny={"100%"} any={0} dtime={0.3} delay={item*.2} key={index}>
                 <ExpandCollapseSection
                     key={index}
                     toggleText={item.toggleText}

@@ -55,15 +55,20 @@ export default function Form() {
           })}
           placeholder="me@gmail.com"
         ></input>
+
         {errors.email && (
           <p className={styles.error} style={{ color: 'red' }}>{errors.email.message}</p>
         )}
         {errorMessage && <p className={styles.error} style={{ color: 'red' }}>{errorMessage}</p>}
+      <hr style={{color:"#757575",width:"20em",height:"1px",backgroundColor:"#757575"}}/>
       </div>
 
       <div>
         <h5>Project details:</h5>
-        <textarea className={styles.inputbody} {...register("body")} placeholder="Project Details"></textarea>
+        <textarea className={styles.inputbody} {...register("body")} placeholder="Project Details">
+          
+        </textarea>
+        
       </div>
 
       <div className={styles.butonform}>

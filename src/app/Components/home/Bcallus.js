@@ -27,7 +27,7 @@ function Bcallus() {
                     <h4>Book a Call</h4>
                     <p>Lear more about us.</p>
 
-                    <button role="submit" style={{backgroundColor:"black"}} class="button" onClick={sendEmail}>
+                    <button role="submit" style={{backgroundColor:"black"}} className="button" onClick={sendEmail}>
             <span className="button__icon-wrapper">
            
             <img src="/arrow.svg"  className="button__icon-svg" style={{filter:"invert(1)"}} alt=""/>
